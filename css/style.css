@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a80b9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #fff;
+    width: 50%;
+    height: 30%;
+}
+
+#champ {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 60%;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid #DEDEDE;
+}
+
+#submit {
+    font-size: 20px;
+    font-weight: 549;
+    margin-left: 50px;
+    width: 150px;
+    height: 60px;
+    border: none;
+}
+
+.p {
+    display: inline-flex;
+    font-weight: bold;
+    color: #cccccc;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#index {
+    margin-left: 20px;
+    word-spacing: 20px;
+}
+
+.p:hover {
+    cursor: pointer;
+}
+
+#WHO {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-left: 20px;
+}
