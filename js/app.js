@@ -21,6 +21,7 @@ for (let i = 0; i < divBtn.children.length; i++) {
 function sumbited(e) {
     e.preventDefault()
     const champ = document.getElementById("champ")
+    champ.value = Math.floor(champ.value)
     const para = document.getElementById("WHO")
 
     switch (`${champ.value}`) {
